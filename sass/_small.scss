@@ -1,0 +1,157 @@
+@media (max-width: 576px) {
+	.navbar {
+		&__link {
+			margin-top: 0.7em;
+			font-size: 3rem;
+			&-nav {
+				width: 50%;
+				&::before {
+					top: 2.2em;
+				}
+				&:hover::before {
+					width: 50%;
+				}
+			}
+		}
+	}
+	.home {
+		&-heading {
+			font-size: 3rem;
+		}
+		&-text {
+			width: 60%;
+		}
+	}
+
+	.section {
+		position: relative;
+		height: 100%;
+		.boxOne {
+			display: none;
+		}
+		.boxTwo {
+			display: none;
+		}
+		.titleBig {
+			width: 18em;
+			position: absolute;
+			// font-size: 1rem;
+			top: 56px;
+			&-title {
+				font-size: 2.6rem;
+			}
+		}
+	}
+
+	.cards {
+		// margin-top: 10em;
+		// margin-bottom: 0;
+		// height: 100%;
+		&__card {
+			width: 100%;
+			height: 380px;
+			.mark {
+				top: 4.5%;
+			}
+			&-back {
+				.text {
+					font-size: 1.8rem;
+				}
+			}
+		}
+	}
+
+	.boxes {
+		&__box {
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+			height: 440px;
+			margin-bottom: 3em;
+			&-img {
+				margin-bottom: 0.4em;
+				width: 100%;
+				height: 50%;
+				&--right {
+					order: 0;
+				}
+			}
+		}
+	}
+	.opinions {
+		// padding: 0.8em 2em;
+		// height: 100%;
+		&__opinionBox {
+			// height: 100%;
+			&-opinion {
+				width: 80%;
+				height: 470px;
+				&-img {
+					width: 60px;
+					height: 60px;
+				}
+				&-tinta {
+					height: 160px;
+					&--title {
+						font-size: 1.2rem;
+						// padding-top: 1em;
+						width: 60%;
+					}
+				}
+				&-place {
+					font-size: 2rem;
+				}
+				&-text {
+					font-size: 1.2rem;
+				}
+				&-rating {
+					font-size: 1.4rem;
+					padding-top: 0.4em;
+				}
+				&-tour {
+					height: 120px;
+					padding-top: 0.8em;
+				}
+			}
+		}
+	}
+	.arrow-left {
+		height: 30px;
+		width: 30px;
+		left: 4%;
+		font-size: 1.6rem;
+	}
+	.arrow-right {
+		height: 30px;
+		width: 30px;
+		right: 4%;
+		font-size: 1.6rem;
+	}
+	.contact {
+		margin-top: 10em;
+		.address {
+			padding-bottom: 2.2em;
+			&-text {
+				font-size: 1.2rem;
+				&--firm {
+					font-size: 1.6rem;
+				}
+			}
+			.social {
+				font-size: 2.2rem;
+			}
+		}
+		.forms {
+			&__form {
+				&-btn {
+					justify-content: space-between;
+					&--submit,
+					&--reset {
+						width: 40%;
+						margin-left: 0;
+					}
+				}
+			}
+		}
+	}
+}
