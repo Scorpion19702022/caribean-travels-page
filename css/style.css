@@ -93,8 +93,8 @@ body {
   z-index: -1;
   -webkit-transform: translateX(100%);
           transform: translateX(100%);
-  -webkit-transition: 1s ease-in-out;
-  transition: 1s ease-in-out;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
 }
 .navbar__link-nav {
   position: relative;
