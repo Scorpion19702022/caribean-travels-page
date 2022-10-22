@@ -1,46 +1,48 @@
 @media (min-width: 1200px) {
-	.home {
-		&-heading {
-			font-size: 4.6rem;
-			text-align: center;
+	main {
+		.home {
+			&-heading {
+				font-size: 4.6rem;
+				text-align: center;
+			}
+			&-text {
+				font-size: 2rem;
+				width: 100%;
+			}
 		}
-		&-text {
-			font-size: 2rem;
-			width: 100%;
-		}
-	}
 
-	.section {
-		.boxTwo {
-			bottom: 0%;
+		.section {
+			.boxTwo {
+				bottom: 0%;
+			}
 		}
-	}
 
-	.cards {
-		&__card {
-			&-front {
-				.imgCard {
-					width: 100%;
-					bottom: 0;
+		.cards {
+			&__card {
+				&-front {
+					.imgCard {
+						width: 100%;
+						bottom: 0;
+					}
 				}
 			}
 		}
-	}
 
-	.boxes {
-		padding: 4em;
-		&__box {
-			width: 85%;
-			&--right {
-				align-self: flex-end;
+		.boxes {
+			padding: 4em;
+			&__box {
+				width: 85%;
+				&--right {
+					align-self: flex-end;
+				}
 			}
 		}
-	}
-	.opinions {
-		&__opinionBox {
-			&-opinion {
-				&-tour {
-					height: 200px;
+		.opinions {
+			&__opinionBox {
+				&-opinion {
+					&-tour {
+						height: 200px;
+					}
 				}
 			}
 		}

@@ -15,72 +15,73 @@
 			}
 		}
 	}
-
-	.section {
-		.boxTwo {
-			bottom: 0;
+	main {
+		.section {
+			.boxTwo {
+				bottom: 0;
+			}
 		}
-	}
 
-	.cards {
-		margin-top: 9em;
-		justify-content: space-around;
-		&__card {
-			height: 300px;
-			.mark {
-				font-size: 1.8rem;
-				width: 35px;
-				height: 35px;
-			}
-			&-front {
-				.imgCard {
-					width: 100%;
-					bottom: 0;
-				}
-				.titleFront {
-					font-size: 2.8rem;
-				}
-			}
-			&-back {
-				.titleBack {
-					font-size: 2.8rem;
-				}
-				.text {
+		.cards {
+			margin-top: 9em;
+			justify-content: space-around;
+			&__card {
+				height: 300px;
+				.mark {
 					font-size: 1.8rem;
+					width: 35px;
+					height: 35px;
+				}
+				&-front {
+					.imgCard {
+						width: 100%;
+						bottom: 0;
+					}
+					.titleFront {
+						font-size: 2.8rem;
+					}
+				}
+				&-back {
+					.titleBack {
+						font-size: 2.8rem;
+					}
+					.text {
+						font-size: 1.8rem;
+					}
 				}
 			}
 		}
-	}
-	.boxes {
-		margin-top: 8em;
-		height: 80%;
-		padding: 5em 3em;
-		&__box {
-			height: 200px;
-			&-img {
-				width: 35%;
-			}
-			&-content {
-				justify-content: space-between;
-				&-title {
-					font-size: 2.8rem;
+		.boxes {
+			margin-top: 8em;
+			height: 80%;
+			padding: 5em 3em;
+			&__box {
+				height: 200px;
+				&-img {
+					width: 35%;
 				}
-				&-textOne {
-					font-size: 1.6rem;
-				}
-				&-textTwo {
-					font-size: 1.6rem;
+				&-content {
+					justify-content: space-between;
+					&-title {
+						font-size: 2.8rem;
+					}
+					&-textOne {
+						font-size: 1.6rem;
+					}
+					&-textTwo {
+						font-size: 1.6rem;
+					}
 				}
 			}
 		}
-	}
-	.contact {
-		.forms {
-			&__form {
-				&-btn {
-					&--submit,
-					&--reset {
-						width: 20%;
+		.contact {
+			.forms {
+				&__form {
+					&-btn {
+						&--submit,
+						&--reset {
+							width: 20%;
+						}
 					}
 				}
 			}

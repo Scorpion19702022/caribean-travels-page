@@ -1,65 +1,66 @@
 @media (min-width: 1400px) {
-	.cards {
-		margin-top: 10em;
-		&__card {
-			position: relative;
-			width: 22%;
-			height: 600px;
-			.mark {
-				top: 4%;
-			}
-			&-front {
-				.imgCard {
-					position: absolute;
-					// width: 100%;
+	main {
+		.cards {
+			margin-top: 10em;
+			&__card {
+				position: relative;
+				width: 22%;
+				height: 600px;
+				.mark {
+					top: 4%;
 				}
-			}
-			&-back {
-				.text {
-					width: 90%;
-					font-size: 2.2rem;
-					padding-bottom: 1em;
+				&-front {
+					.imgCard {
+						position: absolute;
+					}
 				}
-				.btn {
-					font-size: 1.6rem;
-					width: 90%;
-				}
-			}
-		}
-	}
-
-	.boxes {
-		margin-top: 8em;
-		height: 80%;
-		padding: 5em 3em;
-		&__box {
-			height: 175px;
-			&-content {
-				justify-content: space-between;
-				&-title {
-					font-size: 2.8rem;
-				}
-				&-textOne {
-					font-size: 1.8rem;
+				&-back {
+					.text {
+						width: 90%;
+						font-size: 2.2rem;
+						padding-bottom: 1em;
+					}
+					.btn {
+						font-size: 1.6rem;
+						width: 90%;
+					}
 				}
 			}
 		}
-	}
 
-	.opinions {
-		&__opinionBox {
-			&-opinion {
-				&-tour {
-					height: 180px;
+		.boxes {
+			margin-top: 8em;
+			height: 80%;
+			padding: 5em 3em;
+			&__box {
+				height: 175px;
+				&-content {
+					justify-content: space-between;
+					&-title {
+						font-size: 2.8rem;
+					}
+					&-textOne {
+						font-size: 1.8rem;
+					}
 				}
 			}
 		}
-	}
 
-	.arrow-left {
-		left: 1%;
-	}
-	.arrow-right {
-		right: 1%;
+		.opinions {
+			&__opinionBox {
+				&-opinion {
+					&-tour {
+						height: 180px;
+					}
+				}
+			}
+		}
+
+		.arrow-left {
+			left: 1%;
+		}
+		.arrow-right {
+			right: 1%;
+		}
 	}
 }

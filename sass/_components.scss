@@ -1,0 +1,50 @@
+.section {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Montserrat', sans-serif;
+	padding-bottom: 2em;
+	overflow: hidden;
+	&:nth-child(odd) {
+		.boxOne {
+			background-color: var(--mixblue-two);
+		}
+		.boxTwo {
+			display: none;
+		}
+	}
+	.boxOne {
+		position: absolute;
+		height: 50px;
+		width: 80%;
+		top: 8%;
+		left: 0;
+		background-color: var(--blue-strong);
+	}
+	.boxTwo {
+		position: absolute;
+		height: 50px;
+		width: 80%;
+		bottom: 0;
+		right: 0;
+		background-color: var(--blue-strong);
+	}
+	.titleBig {
+		position: absolute;
+		width: 20em;
+		left: 0%;
+		top: 100px;
+		background-color: var(--blue-verystrong);
+		&-title {
+			font-size: 3rem;
+			font-weight: 400;
+			padding: 0.2em 1em;
+			color: var(--two-color);
+			text-align: right;
+			text-transform: uppercase;
+		}
+	}
+}

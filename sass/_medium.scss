@@ -36,89 +36,88 @@
 			display: none;
 		}
 	}
-	.home {
-		position: relative;
-		background-image: url('../img/home_01_big.jpg');
-		background-position: 70% -10%;
-	}
-	.arrows {
-		position: absolute;
-		display: block;
-		bottom: 2%;
-		left: 50%;
-		width: 60px;
-		height: 60px;
-		border: 2px solid rgba(135, 206, 250, 0.7);
-		border-radius: 50%;
-		overflow: hidden;
-		z-index: 1;
-		cursor: pointer;
-		transform: translateX(-50%);
-		transition: background-color 0.5s ease-in-out;
-		// background-color: var(--two-color);
-		&:hover {
-			background-color: var(--blue-verystrong);
+	main {
+		.home {
+			position: relative;
+			background-image: url('../img/home_01_big.jpg');
+			background-position: 70% -10%;
 		}
-		&-arrow {
+		.arrows {
 			position: absolute;
-			display: flex;
-			justify-content: center;
+			display: block;
+			bottom: 2%;
 			left: 50%;
-			top: 50%;
-			transform: translate(-50%, -50%);
-			// flex-direction: column;
-			text-align: center;
-			align-items: center;
-			// transform: translate(50%, 50%);
-			font-size: 3rem;
-			color: var(--one-color);
+			width: 60px;
+			height: 60px;
+			border: 2px solid rgba(135, 206, 250, 0.7);
+			border-radius: 50%;
+			overflow: hidden;
+			z-index: 1;
+			cursor: pointer;
+			transform: translateX(-50%);
+			transition: background-color 0.5s ease-in-out;
+			&:hover {
+				background-color: var(--blue-verystrong);
+			}
+			&-arrow {
+				position: absolute;
+				display: flex;
+				justify-content: center;
+				left: 50%;
+				top: 50%;
+				transform: translate(-50%, -50%);
+				text-align: center;
+				align-items: center;
+				font-size: 3rem;
+				color: var(--one-color);
+			}
 		}
-	}
 
-	.section {
-		.boxTwo {
-			width: 100%;
-			bottom: 0;
-			height: 90px;
+		.section {
+			.boxTwo {
+				width: 100%;
+				bottom: 0;
+				height: 90px;
+			}
 		}
-	}
-	.boxes {
-		margin-top: 8em;
-		height: 80%;
-		padding: 5em 3em;
-		&__box {
-			height: 175px;
-			&-content {
-				justify-content: space-between;
-				&-title {
-					font-size: 2.2rem;
-					padding-bottom: 0.7em;
-					margin-bottom: 0.7em;
-				}
-				&-textOne {
-					font-size: 1.4rem;
-					margin-bottom: 1em;
+		.boxes {
+			margin-top: 8em;
+			height: 80%;
+			padding: 5em 3em;
+			&__box {
+				height: 175px;
+				&-content {
+					justify-content: space-between;
+					&-title {
+						font-size: 2.2rem;
+						padding-bottom: 0.7em;
+						margin-bottom: 0.7em;
+					}
+					&-textOne {
+						font-size: 1.4rem;
+						margin-bottom: 1em;
+					}
 				}
 			}
 		}
-	}
 
-	.cards {
-		&__card {
-			height: 290px;
+		.cards {
+			&__card {
+				height: 290px;
+			}
 		}
-	}
 
-	.opinions {
-		&__opinionBox {
-			&-opinion {
-				&-tinta {
-					&--title {
-						width: 50%;
+		.opinions {
+			&__opinionBox {
+				&-opinion {
+					&-tinta {
+						&--title {
+							width: 50%;
+						}
 					}
-				}
-				&-tour {
-					height: 180px;
+					&-tour {
+						height: 180px;
+					}
 				}
 			}
 		}
