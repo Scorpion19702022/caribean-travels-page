@@ -11,6 +11,6 @@ The first major website. It was created quite spontaneously. While practicing so
 - JavaScript
 - jQuery
 
-JQuery was only used on the carousel in the feedback section. This was somehow forced by the use of slik:
+JQuery was only used on the carousel in the opinions section. This was somehow forced by the use of slik:
 
 https://kenwheeler.github.io/slick/
